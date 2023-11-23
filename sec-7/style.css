@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+
+.right {
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    float: right;
+}
+
+.footer {
+    width: 800px;
+    margin: 0 auto;
+    height: 150px;
+    background-color: darkorchid;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.image {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.image img {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

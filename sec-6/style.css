@@ -1,0 +1,20 @@
+*, html {
+    box-sizing: border-box;
+}
+
+.div1 {
+    
+    background-color: aquamarine;
+    margin: 100px;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    outline: 5px dashed black;
+    border: 5px solid blueviolet;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
